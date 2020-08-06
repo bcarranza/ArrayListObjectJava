@@ -1,5 +1,5 @@
 /**
- * Clase encargada de administrar una lista de personas.
+ * Clase encargada de administrar una lista de personas y sus distintas operaciones.
  * @author Bayron Carranza
  * @version 1.0
  */
