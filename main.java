@@ -1,5 +1,5 @@
 /**
- * Clase princiapl de arranque 
+ * Clase principal de arranque 
  * @author Bayron Carranza
  * @version 1.0
  */
