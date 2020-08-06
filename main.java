@@ -1,3 +1,8 @@
+/**
+ * Clase princiapl de arranque 
+ * @author Bayron Carranza
+ * @version 1.0
+ */
 import java.util.UUID;
 class main
 {

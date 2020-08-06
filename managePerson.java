@@ -1,8 +1,19 @@
+/**
+ * Clase encargada de administrar una lista de personas.
+ * @author Bayron Carranza
+ * @version 1.0
+ */
 import java.util.*;
 public class managePerson
 {
+    /**
+     * Atributo que identifica la lista de personas que esta clase administra.
+     */
    private ArrayList<person> pList = new ArrayList<person>();
    
+   /**
+    * Agrega una persona a la lista administrable.
+    */
    public void add(String uuid, String name, String lastName)
    {
        try {
@@ -16,6 +27,9 @@ public class managePerson
             e.printStackTrace();
        }
    }
+   /**
+    * Imprime la lista de personas de la propiedad pList con sus atributos
+    */
    public void printList()
    {
       try{
@@ -26,6 +40,10 @@ public class managePerson
         e.printStackTrace();
       }  
    }
+   /**
+    * Borra una persona de la lista
+    * @param uuid de la persona
+    */
    public void remove(String uuid)
    {
         try{
@@ -35,6 +53,10 @@ public class managePerson
             e.printStackTrace();
         }
    }
+   /**
+    * Busca una persona por nombre.
+    * @param nombre de la persona.
+    */
    public person searchPerson(String name)
    {    
         try{
