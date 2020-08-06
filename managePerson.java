@@ -1,5 +1,5 @@
 import java.util.*;
-public class myListPerson
+public class managePerson
 {
    private ArrayList<person> pList = new ArrayList<person>();
    
